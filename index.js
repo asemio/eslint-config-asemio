@@ -8,6 +8,11 @@ module.exports = {
         "sourceType": "module"
     },
     "rules": {
+        "brace-style": [
+            "error",
+            "stroustrup",
+            { "allowSingleLine": true }
+        ],
         "indent": [
             "error",
             4,
