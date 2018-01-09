@@ -28,6 +28,9 @@ module.exports = {
             "error",
             "always"
         ],
-        "space-infix-ops": ["error"]
+        "space-infix-ops": ["error"],
+        "no-multi-spaces": ["error"],
+        "func-call-spacing": ["error", "never" ],
+        "no-trailing-spaces": ["error"]
     }
 };
