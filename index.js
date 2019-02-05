@@ -4,6 +4,11 @@ module.exports = {
         "es6": true
     },
     "extends": "eslint:recommended",
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
     "parserOptions": {
         "sourceType": "module"
     },
